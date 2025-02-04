@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>about</class>
+ <widget class="QDialog" name="about">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>588</width>
+    <height>595</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>About PFliP-UAV</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../resources.qrc">
+    <normaloff>:/plugins/pflip_uav_pafyc/icon.png</normaloff>:/plugins/pflip_uav_pafyc/icon.png</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_9">
+   <item row="0" column="0">
+    <widget class="QToolBox" name="toolBox">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>570</width>
+        <height>437</height>
+       </rect>
+      </property>
+      <attribute name="label">
+       <string>About</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_2" stretch="3,1">
+         <item>
+          <widget class="QTextBrowser" name="textBrowser_description">
+           <property name="html">
+            <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.15094pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:14pt; font-weight:600; color:#aa0000;&quot;&gt;P&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:14pt; font-weight:600; color:#000000;&quot;&gt;hotogrammetric and Remote Sensing &lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:14pt; font-weight:600; color:#aa0000;&quot;&gt;Fli&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:14pt; font-weight:600; color:#000000;&quot;&gt;ght &lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:14pt; font-weight:600; color:#aa0000;&quot;&gt;P&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:14pt; font-weight:600; color:#000000;&quot;&gt;lanning for &lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:14pt; font-weight:600; color:#aa0000;&quot;&gt;U&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:14pt; font-weight:600; color:#000000;&quot;&gt;nmanned &lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:14pt; font-weight:600; color:#aa0000;&quot;&gt;A&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:14pt; font-weight:600; color:#000000;&quot;&gt;erial &lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:14pt; font-weight:600; color:#aa0000;&quot;&gt;V&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:14pt; font-weight:600; color:#000000;&quot;&gt;ehicle (&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:14pt; font-weight:600; color:#aa0000;&quot;&gt;PFliP-UAV&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:14pt; font-weight:600; color:#000000;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Contact information:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8.15094pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:16pt; font-weight:600; color:#000000;&quot;&gt;David Hernández López&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:14pt; color:#000000;&quot;&gt;Catedrático de Universidad&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:14pt; color:#000000;&quot;&gt;Área de Ingeniería Cartográfica, Geodésica y Fotogrametría&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:14pt; color:#000000;&quot;&gt;Universidad de Castilla-La Mancha&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:14pt; color:#000000;&quot;&gt; david.hernandez@uclm.es&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Calibri'; font-size:10pt; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;Research group:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:14pt; color:#000000;&quot;&gt;Precisión Agroforestal y Cartográfica, PAFyC&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a href=&quot;http://pafyc.uclm.es/&quot;&gt;&lt;span style=&quot; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;http://pafyc.uclm.es/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt; text-decoration: underline; color:#0000ff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;      &lt;/span&gt;&lt;img src=&quot;:/plugins/pflip_uav_pafyc/icons/logo_pafyc.png&quot; /&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;                                                 &lt;/span&gt;&lt;img src=&quot;:/plugins/pflip_uav_pafyc/icons/logo-uclm.png&quot; /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTextBrowser" name="textBrowser_versions">
+           <property name="html">
+            <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.15094pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:10pt; font-weight:600;&quot;&gt;PFliP-UAV &lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:10pt;&quot;&gt;version: 1.2&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:10pt; font-weight:600; color:#000000;&quot;&gt;QGIS &lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:10pt; color:#000000;&quot;&gt;version: &lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;3.22.12-Białowieża&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:10pt; font-weight:600;&quot;&gt;PyQt &lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:10pt;&quot;&gt;compile: &lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;5.15.3&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:10pt; font-weight:600; color:#000000;&quot;&gt;SpatiaLite&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:10pt; color:#000000;&quot;&gt; version: &lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;5.0.1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>570</width>
+        <height>437</height>
+       </rect>
+      </property>
+      <attribute name="label">
+       <string>News - Historic Changes</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="QTextBrowser" name="textBrowser_News">
+         <property name="toolTip">
+          <string notr="true"/>
+         </property>
+         <property name="html">
+          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.15094pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:12pt; font-weight:600; color:#aa0000;&quot;&gt;P&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;hotogrammetric and Remote Sensing &lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:12pt; font-weight:600; color:#aa0000;&quot;&gt;Fli&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;ght &lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:12pt; font-weight:600; color:#aa0000;&quot;&gt;P&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;lanning for &lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:12pt; font-weight:600; color:#aa0000;&quot;&gt;U&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;nmanned &lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:12pt; font-weight:600; color:#aa0000;&quot;&gt;A&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;erial &lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:12pt; font-weight:600; color:#aa0000;&quot;&gt;V&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;ehicle (&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:12pt; font-weight:600; color:#aa0000;&quot;&gt;PFliP-UAV&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt; font-weight:600; color:#ff0000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Consolas'; font-size:9pt; color:#0000ff;&quot;&gt;001 [new]&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:10pt;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot; font-family:'Avenir Next,Open sans'; font-size:10pt; color:#000000;&quot;&gt; Versión inicial&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>570</width>
+        <height>437</height>
+       </rect>
+      </property>
+      <attribute name="label">
+       <string>Developers, distributors and Translators</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_8">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QGroupBox" name="groupBox_2">
+           <property name="title">
+            <string>Developers</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout">
+            <item row="0" column="0">
+             <widget class="QTextBrowser" name="textBrowser_Developers">
+              <property name="html">
+               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.15094pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:16pt; color:#000000;&quot;&gt;David Hernández López&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:14pt; color:#000000;&quot;&gt;Catedrático de Universidad&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:14pt; color:#000000;&quot;&gt;Área de Ingeniería Cartográfica, Geodésica y Fotogrametría&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:14pt; color:#000000;&quot;&gt;Universidad de Castilla-La Mancha&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Calibri'; font-size:14pt; color:#000000;&quot;&gt; david.hernandez@uclm.es&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+      <zorder></zorder>
+     </widget>
+     <widget class="QWidget" name="page_7">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>570</width>
+        <height>437</height>
+       </rect>
+      </property>
+      <attribute name="label">
+       <string>Terms of use</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="0">
+        <widget class="QTextEdit" name="textEdit_TermsUse">
+         <property name="html">
+          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.15094pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Se autoriza el uso de este complemento sin responsabilidad del autor&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>570</width>
+        <height>437</height>
+       </rect>
+      </property>
+      <attribute name="label">
+       <string>License</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_5">
+       <item row="0" column="0">
+        <widget class="QTextEdit" name="textEdit_License">
+         <property name="html">
+          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.15094pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Se autoriza el uso de este complemento sin responsabilidad del autor&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="../resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

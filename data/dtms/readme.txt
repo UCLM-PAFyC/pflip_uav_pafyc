@@ -1,0 +1,2 @@
+gdal_translate -of GTiff -a_nodata 0 -co COMPRESS=LZW DTM_SpainCanarias_100m_4083_HOrto_withoutNoData.tif DTM_SpainCanarias_100m_4083_HOrto.tif
+gdal_translate -of GTiff -a_nodata 0 -co COMPRESS=LZW DTM_SpainPeninsulaBaleares_100m_25830+5782_withoutNoData.tif DTM_SpainPeninsula_100m_25830+5782.tif
